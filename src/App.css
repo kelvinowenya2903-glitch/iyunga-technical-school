@@ -30,7 +30,7 @@
   align-items: center;
   text-align: center;
   position: relative;
-  color: rgb(14, 13, 13);
+  color: rgb(248, 238, 238);
 }
 .hero::before {
   content: "";
@@ -38,7 +38,9 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
 }
-.hero h1,
+.hero h1{
+  color: #111827;
+}
 .hero p,
 .hero button {
   position: relative;
