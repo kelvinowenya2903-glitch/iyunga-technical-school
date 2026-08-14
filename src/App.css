@@ -30,7 +30,7 @@
   align-items: center;
   text-align: center;
   position: relative;
-  color: white;
+  color: rgb(14, 13, 13);
 }
 .hero::before {
   content: "";
@@ -48,7 +48,7 @@
   background-color: blue !important;
   color: white !important;
   padding: 15px 30px !important;
-  border: 3px solid yellow !important;
+  border: 3px solid rgb(255, 255, 246) !important;
   cursor: pointer;
 }
 
@@ -1545,5 +1545,4 @@
   .career-list {
     grid-template-columns: 1fr;
   }
-
 }
