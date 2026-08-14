@@ -46,7 +46,7 @@
   z-index: 1;
 }
 .get-btn {
-  background-color: blue !important;
+  background-color: rgb(49, 233, 33) !important;
   color: white !important;
   padding: 15px 30px !important;
   border: 3px solid rgb(255, 255, 246) !important;
