@@ -36,7 +36,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(236, 234, 234, 0.932);
 }
 .hero h1{
   color: #111827;
@@ -1376,7 +1376,7 @@
 }
 
 .program-detail-hero {
-  background: linear-gradient(135deg, #f5c542, #f5c542);
+  background: linear-gradient(135deg, #f8f7f5, #f3f2ef);
   color: white;
   text-align: center;
   padding: 90px 20px;
