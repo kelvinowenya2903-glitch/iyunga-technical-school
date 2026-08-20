@@ -1,0 +1,136 @@
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  background: #0f172a;
+  color: #ffffff;
+
+  margin-top: 0;
+}
+
+/* Footer Main */
+
+.footer-container {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  padding: 65px 7% 50px;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+
+  gap: 60px;
+}
+
+/* Headings */
+
+.footer h3 {
+  margin: 0 0 20px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+/* About */
+
+.footer-about p {
+  max-width: 350px;
+
+  margin: 0;
+
+  color: #cbd5e1;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Quick Links */
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+
+  text-decoration: none;
+
+  font-size: 15px;
+
+  margin-bottom: 12px;
+
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+
+  transform: translateX(5px);
+}
+
+/* Contact */
+
+.footer-contact p {
+  margin: 0 0 12px;
+
+  color: #cbd5e1;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+/* Bottom */
+
+.footer-bottom {
+  border-top: 1px solid #334155;
+
+  text-align: center;
+
+  padding: 20px 7%;
+}
+
+.footer-bottom p {
+  margin: 0;
+
+  color: #94a3b8;
+
+  font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .footer-container {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    padding: 50px 8% 40px;
+  }
+
+  .footer-about p {
+    max-width: 100%;
+  }
+
+  .footer-links {
+    align-items: flex-start;
+  }
+
+  .footer-bottom {
+    padding: 18px 6%;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}

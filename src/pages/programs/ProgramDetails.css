@@ -1,0 +1,643 @@
+/* =================================
+   PROGRAM DETAIL PAGE
+================================= */
+
+.program-detail {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding-bottom: 70px;
+}
+
+
+/* =================================
+   HERO
+================================= */
+
+.program-detail-hero {
+  padding: 100px 8%;
+  text-align: center;
+  background: linear-gradient(135deg, #0f3d91, #1565c0);
+  color: white;
+}
+
+.program-detail-hero h1 {
+  font-size: 48px;
+  margin: 0 0 18px;
+}
+
+.program-detail-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+
+/* =================================
+   CONTENT
+================================= */
+
+.program-detail-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 8%;
+}
+
+.program-detail-content h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #0f3d91;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.program-detail-content > p {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  text-align: center;
+  color: #4b5563;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   WHAT YOU WILL LEARN
+================================= */
+
+.program-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.program-feature {
+  background: #ffffff;
+  padding: 35px 28px;
+  text-align: center;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition: 0.3s ease;
+}
+
+.program-feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 40px rgba(15, 61, 145, 0.12);
+  border-color: #bfdbfe;
+}
+
+
+/* ICON */
+
+.program-feature span {
+  width: 75px;
+  height: 75px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eff6ff;
+
+  font-size: 38px;
+
+  box-shadow: 0 8px 20px rgba(15, 61, 145, 0.10);
+
+  transition: 0.3s ease;
+}
+
+.program-feature:hover span {
+  transform: scale(1.1) rotate(3deg);
+  background: #dbeafe;
+}
+
+
+/* TEXT */
+
+.program-feature h3 {
+  font-size: 21px;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.program-feature p {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+/* =================================
+   PROGRAM INFORMATION
+================================= */
+
+.program-info {
+  max-width: 1000px;
+
+  margin: 50px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.info-box {
+  background: #ffffff;
+
+  padding: 30px 20px;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+
+  transition: 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 15px 35px rgba(15, 61, 145, 0.12);
+}
+
+.info-box span {
+  width: 65px;
+  height: 65px;
+
+  margin: 0 auto 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eff6ff;
+
+  font-size: 32px;
+}
+
+.info-box h3 {
+  color: #0f3d91;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  color: #555;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+/* =================================
+   CAREER OPPORTUNITIES
+================================= */
+
+.career-section {
+  max-width: 1000px;
+
+  margin: 70px auto 20px;
+}
+
+.career-section h2 {
+  text-align: center;
+
+  color: #0f3d91;
+
+  font-size: 32px;
+
+  margin-bottom: 30px;
+}
+
+.career-list {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+.career-list div {
+  background: #ffffff;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+
+  color: #374151;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  transition: 0.3s ease;
+}
+
+.career-list div:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 12px 28px rgba(15, 61, 145, 0.12);
+}
+
+
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 900px) {
+
+  .program-detail-hero {
+    padding: 80px 6%;
+  }
+
+  .program-detail-hero h1 {
+    font-size: 42px;
+  }
+
+  .program-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .program-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 600px) {
+
+  .program-detail-hero {
+    padding: 70px 6%;
+  }
+
+  .program-detail-hero h1 {
+    font-size: 34px;
+  }
+
+  .program-detail-hero p {
+    font-size: 15px;
+  }
+
+  .program-detail-content {
+    padding: 60px 6%;
+  }
+
+  .program-detail-content h2 {
+    font-size: 28px;
+  }
+
+  .program-detail-content > p {
+    font-size: 15px;
+    margin-bottom: 45px;
+  }
+
+  .program-features {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .program-feature {
+    padding: 32px 22px;
+  }
+
+  .program-info {
+    grid-template-columns: 1fr;
+    margin: 40px auto;
+  }
+
+  .career-list {
+    grid-template-columns: 1fr;
+  }
+
+  .career-section h2 {
+    font-size: 28px;
+  }
+
+}
+/* =================================
+   WHY STUDY ELECTRICAL ENGINEERING
+================================= */
+
+.why-study-section {
+  margin-top: 80px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.why-study-section h2 {
+  font-size: 32px;
+  color: #0f3d91;
+  margin-bottom: 15px;
+}
+
+.why-study-intro {
+  max-width: 750px;
+  margin: 0 auto 45px;
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.why-study-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.why-study-card {
+  background: #ffffff;
+  padding: 35px 28px;
+
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.why-study-card:hover {
+  transform: translateY(-10px);
+
+  box-shadow:
+    0 18px 40px rgba(15, 61, 145, 0.13);
+
+  border-color: #bfdbfe;
+}
+
+.why-study-icon {
+  width: 75px;
+  height: 75px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eff6ff;
+
+  border-radius: 50%;
+
+  font-size: 38px;
+
+  box-shadow:
+    0 8px 20px rgba(15, 61, 145, 0.10);
+
+  transition: 0.3s ease;
+}
+
+.why-study-card:hover .why-study-icon {
+  transform: scale(1.1) rotate(3deg);
+  background: #dbeafe;
+}
+
+.why-study-card h3 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.why-study-card p {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+/* =================================
+   MODERN PROGRAM CTA
+================================= */
+
+.program-cta {
+  margin-top: 80px;
+  padding: 60px 30px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0f3d91,
+      #1565c0
+    );
+
+  border-radius: 22px;
+
+  text-align: center;
+
+  position: relative;
+  overflow: hidden;
+
+  box-shadow:
+    0 15px 40px rgba(15, 61, 145, 0.18);
+}
+
+.program-cta::before {
+  content: "";
+
+  position: absolute;
+
+  width: 220px;
+  height: 220px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  top: -100px;
+  left: -70px;
+}
+
+.program-cta::after {
+  content: "";
+
+  position: absolute;
+
+  width: 250px;
+  height: 250px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  bottom: -130px;
+  right: -80px;
+}
+
+.program-cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-icon {
+  width: 70px;
+  height: 70px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  border-radius: 50%;
+
+  font-size: 34px;
+
+ 
+}
+
+.program-cta h2 {
+  color: #ffffff;
+
+  font-size: 34px;
+
+  margin-bottom: 15px;
+}
+
+.program-cta p {
+  max-width: 650px;
+
+  margin: 0 auto 30px;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 16px;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   MODERN APPLY BUTTON
+================================= */
+
+.program-apply-btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  padding: 14px 28px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  color: #0f3d91;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.15);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.program-apply-btn span {
+  font-size: 20px;
+
+  transition: transform 0.3s ease;
+}
+
+.program-apply-btn:hover {
+  transform: translateY(-4px);
+
+  background: #eff6ff;
+
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.program-apply-btn:hover span {
+  transform: translateX(5px);
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 900px) {
+
+  .why-study-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .why-study-section {
+    margin-top: 50px;
+    padding: 50px 0;
+  }
+
+  .why-study-section h2 {
+    font-size: 28px;
+  }
+
+  .why-study-container {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .program-cta {
+    margin-top: 50px;
+    padding: 50px 20px;
+    border-radius: 18px;
+  }
+
+  .program-cta h2 {
+    font-size: 28px;
+  }
+
+  .program-cta p {
+    font-size: 15px;
+  }
+
+  .program-apply-btn {
+    width: 100%;
+    max-width: 250px;
+  }
+
+}

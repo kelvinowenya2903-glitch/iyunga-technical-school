@@ -1,0 +1,313 @@
+.register-page {
+  width: 100%;
+  background: #f5f7fb;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.register-hero {
+  min-height: 350px;
+
+  background:
+    linear-gradient(
+      rgba(15, 61, 145, 0.84),
+      rgba(21, 101, 192, 0.84)
+    ),
+    url("../assets/jengo.png");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
+
+.register-hero-content {
+  max-width: 750px;
+  padding: 40px 20px;
+}
+
+.register-hero-content span {
+  display: inline-block;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.register-hero h1 {
+  margin: 10px 0 15px;
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.register-hero p {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   MAIN SECTION
+========================= */
+
+.register-section {
+  padding: 70px 20px;
+}
+
+.register-container {
+  max-width: 950px;
+
+  margin: 0 auto;
+
+  padding: 50px;
+
+  background: #ffffff;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.register-heading {
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+
+.register-heading span {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #1565c0;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+.register-heading h2 {
+  margin: 0 0 12px;
+
+  color: #0f3d91;
+
+  font-size: 34px;
+}
+
+.register-heading p {
+  max-width: 650px;
+
+  margin: 0 auto;
+
+  color: #666;
+
+  line-height: 1.7;
+}
+
+
+/* =========================
+   FORM SECTIONS
+========================= */
+
+.register-form-section {
+  margin-bottom: 40px;
+}
+
+.register-form-section h3 {
+  margin: 0 0 22px;
+
+  padding-bottom: 12px;
+
+  border-bottom: 2px solid #eef1f5;
+
+  color: #0f3d91;
+
+  font-size: 21px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.register-form {
+  width: 100%;
+}
+
+.register-row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 22px;
+}
+
+.register-group {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-bottom: 22px;
+}
+
+.register-group label {
+  margin-bottom: 8px;
+
+  color: #222;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.register-group input,
+.register-group select {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 14px 15px;
+
+  border: 1px solid #d5d9df;
+
+  border-radius: 8px;
+
+  background: #fff;
+
+  color: #222;
+
+  font-size: 15px;
+
+  font-family: inherit;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+.register-group input:focus,
+.register-group select:focus {
+  border-color: #1565c0;
+
+  box-shadow:
+    0 0 0 3px rgba(21, 101, 192, 0.1);
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.register-button {
+  width: 100%;
+
+  padding: 16px;
+
+  margin-top: 5px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #0f3d91;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.register-button:hover {
+  background: #1565c0;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================
+   LOGIN LINK
+========================= */
+
+.register-login-text {
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #666;
+
+  font-size: 15px;
+}
+
+.register-login-text a {
+  color: #0f3d91;
+
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.register-login-text a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .register-hero {
+    min-height: 320px;
+  }
+
+  .register-hero h1 {
+    font-size: 36px;
+  }
+
+  .register-hero p {
+    font-size: 16px;
+  }
+
+  .register-section {
+    padding: 50px 15px;
+  }
+
+  .register-container {
+    padding: 30px 22px;
+  }
+
+  .register-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .register-heading h2 {
+    font-size: 28px;
+  }
+
+}

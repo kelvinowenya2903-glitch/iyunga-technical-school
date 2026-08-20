@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 import {Link} from "react-router-dom"
+
 function Academics() {
   return (
     <>
-    <Navbar/>
+  
     <div className="academics-page">
 
       <section className="academics-hero">
@@ -90,7 +89,7 @@ function Academics() {
       </section>
 
     </div>
-    <Footer/>
+    
     
     </>
   )

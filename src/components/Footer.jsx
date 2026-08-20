@@ -1,3 +1,4 @@
+import  "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
@@ -21,13 +22,14 @@ function Footer() {
           <a href="/academics">Academics</a>
           <a href="/#admissions">Admissions</a>
           <a href="/#contact">Contact Us</a>
+          <a href="/#register">Register</a>
         </div>
 
         <div className="footer-contact">
           <h3>Contact</h3>
 
           <p>📍 Iyunga, Mbeya, Tanzania</p>
-          <p>📞 +255 XXX XXX XXX</p>
+          <p>📞 +255 670 327 266</p>
           <p>✉️ info@iyungatechnical.ac.tz</p>
         </div>
 
